@@ -1,0 +1,76 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>JavaScript Exercises</title>
+  <link href="https://cdn.jsdelivr.net/npm/tailwindcss@2.2.19/dist/tailwind.min.css" rel="stylesheet">
+</head>
+
+<body class="p-6 bg-black min-h-screen flex flex-col items-center">
+  <h1 class="text-3xl font-bold mb-8 text-center text-white">JavaScript Exercises</h1>
+
+  <section class="flex flex-col justify-center items-center gap-8 w-full">
+    <!-- Card 1 -->
+    <div class="w-full max-w-2xl p-6 bg-white rounded-xl shadow-lg">
+      <h2 class="text-2xl font-bold text-gray-700">Exercise 1: Filtering an Array</h2>
+      <p class="text-sm text-gray-600 mb-4">Enter comma-separated numbers. The function will return only the even numbers.</p>
+      <input id="input1" type="text" placeholder="Enter numbers (Ex. 1,2,3,4,5)"
+        class="w-full p-3 border rounded-lg focus:outline-none focus:ring-2 focus:ring-blue-400 mb-4">
+      <button id="btn1"
+        class="w-full p-3 bg-gray-600 text-white rounded-lg hover:bg-black transition-colors duration-300">Submit</button>
+      <div id="result1" class="mt-4 p-3 bg-gray-100 rounded-lg hidden">
+        <p class="font-semibold">Result:</p>
+        <p id="output1"></p>
+      </div>
+    </div>
+
+    <!-- Card 2 -->
+    <div class="w-full max-w-2xl p-6 bg-white rounded-xl shadow-lg">
+      <h2 class="text-2xl font-bold text-gray-700">Exercise 2: Find the Largest Number</h2>
+      <p class="text-sm text-gray-600 mb-4">Enter comma-separated numbers. The function will return the largest number.</p>
+      <input id="input2" type="text" placeholder="Enter numbers (Ex. 10,5,8,3,9)"
+        class="w-full p-3 border rounded-lg focus:outline-none focus:ring-2 focus:ring-blue-400 mb-4">
+      <button id="btn2"
+        class="w-full p-3 bg-gray-600 text-white rounded-lg hover:bg-black transition-colors duration-300">Submit</button>
+      <div id="result2" class="mt-4 p-3 bg-gray-100 rounded-lg hidden">
+        <p class="font-semibold">Result:</p>
+        <p id="output2"></p>
+      </div>
+    </div>
+
+    <!-- Card 3 -->
+    <div class="w-full max-w-2xl p-6 bg-white rounded-xl shadow-lg">
+      <h2 class="text-2xl font-bold text-gray-700">Exercise 3: Reverse a String</h2>
+      <p class="text-sm text-gray-600 mb-4">Enter a string. The function will return the reversed string.</p>
+      <input id="input3" type="text" placeholder="Enter a string"
+        class="w-full p-3 border rounded-lg focus:outline-none focus:ring-2 focus:ring-blue-400 mb-4">
+      <button id="btn3"
+        class="w-full p-3 bg-gray-600 text-white rounded-lg hover:bg-black transition-colors duration-300">Submit</button>
+      <div id="result3" class="mt-4 p-3 bg-gray-100 rounded-lg hidden">
+        <p class="font-semibold">Result:</p>
+        <p id="output3"></p>
+      </div>
+    </div>
+
+    <!-- Card 4 -->
+    <div class="w-full max-w-2xl p-6 bg-white rounded-xl shadow-lg">
+      <h2 class="text-2xl font-bold text-gray-700">Exercise 4: Remove Duplicates</h2>
+      <p class="text-sm text-gray-600 mb-4">Enter comma-separated numbers. The function will return an array without duplicates.</p>
+      <input id="input4" type="text" placeholder="Enter numbers (Ex. 1,2,3,2,4,3,5)"
+        class="w-full p-3 border rounded-lg focus:outline-none focus:ring-2 focus:ring-blue-400 mb-4">
+      <button id="btn4"
+        class="w-full p-3 bg-gray-600 text-white rounded-lg hover:bg-black transition-colors duration-300">Submit</button>
+      <div id="result4" class="mt-4 p-3 bg-gray-100 rounded-lg hidden">
+        <p class="font-semibold">Result:</p>
+        <p id="output4"></p>
+      </div>
+    </div>
+  </section>
+
+  <!-- Local JS File -->
+  <script src="./main.js"></script>
+</body>
+
+</html>
